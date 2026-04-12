@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Trump" verbose="1">
+    <test name="Regression1">
+        <classes>
+            <class name="Class67_TestNGClass1.LoginTest">
+                <methods>
+                        <include name="verifyLogInSuccessful" />
+                </methods>
+            </class>
+
+                <class name="Class67_TestNGClass1.ProdcutDeatilsPageTest">
+                    <methods>
+                        <include name="verifyUserCanAddProduct" />
+                    </methods>
+                </class>
+
+            <class name="Class67_TestNGClass1.CartTest">
+                <methods>
+                    <include name="verifyUserCanClickONCheckOut" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

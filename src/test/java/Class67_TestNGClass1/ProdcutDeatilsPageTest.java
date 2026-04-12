@@ -4,14 +4,16 @@ import org.testng.annotations.Test;
 
 public class ProdcutDeatilsPageTest extends BaseTest{
 
+
+
     @Test
     public void verifyUserCanAddProduct() {
-        System.out.println("Test -  verify User Can Add Product");
+        System.out.println("4_Test -  verify User Can Add Product");
     }
 
     @Test
     public void verifyUserCanRemoveProduct() {
-        System.out.println("Test - verify User Can remove Product");
+        System.out.println("5_Test - verify User Can Remove Product");
     }
 
 }

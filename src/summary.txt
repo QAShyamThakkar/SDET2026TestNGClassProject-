@@ -1,0 +1,38 @@
+Maven - Project + TestNG Dependency (pom)
+
+Manual Test Case
+
+Annotations
+
+	@Test
+
+	@BeforeTest
+	@AfterTest
+
+	@BeforeClass
+	@AfterClass
+
+	@BeforeMethod
+	@AfterMethod
+
+Page Object Model
+	- 3 classes (8 methods)
+
+BaseTest - Inheritance
+
+Runner.xml
+
+	1. Package
+	2. Classes
+	3. Method (include/exclude)
+
+	4. grouping
+	5. Dependency and Priority
+	6. Parameters
+	7. Parallel Testing
+
+Assertion (hard + soft)
+
+Data Driven Testing
+
+Reporting

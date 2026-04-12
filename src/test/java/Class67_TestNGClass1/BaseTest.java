@@ -1,18 +1,18 @@
 package Class67_TestNGClass1;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.*;
 
 public class BaseTest {
 
-    @BeforeClass
+    @BeforeTest
     public void setUp(){
-        System.out.println("0Before");
+        System.out.println("0Opening the Website");
     }
 
-    @AfterClass
+
+    @AfterTest
     public void cleanUp(){
-        System.out.println("9After");
+        System.out.println("9Closing the Website");
     }
 
 }
