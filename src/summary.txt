@@ -28,6 +28,7 @@ Runner.xml
 
 	4. grouping
 	5. Dependency and Priority
+
 	6. Parameters
 	7. Parallel Testing
 

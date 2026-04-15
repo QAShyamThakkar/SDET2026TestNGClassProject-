@@ -5,18 +5,18 @@ import org.testng.annotations.*;
 public class LoginTest extends BaseTest{
 
 
-    @Test
+    @Test (groups = "smoke")
     public void verifyLogInSuccessful() {
         System.out.println("1_Test - Verify Log in is Successful");
     }
 
-    @Test
+    @Test (priority = 1)
     public void verifyLogInUnsuccessful() {
         System.out.println("2_Test - Verify Log in is Unsuccessful");
     }
 
-    @Test
-    public void verifyLogInwithBlankCred() {
+    @Test (priority = -1)
+    public void verifyLogInWithBlankCred() {
         System.out.println("3_Test - Verify Log in is Unsuccessful with Blank Cred");
     }
 

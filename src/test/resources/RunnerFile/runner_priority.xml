@@ -1,16 +1,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="Trump" verbose="1">
-    <test name="Regression1">
+    <test name="Smoke">
         <classes>
-
             <class name="Class67_TestNGClass1.LoginTest">
-                <methods>
-                        <exclude name="verifyLogInSuccessful" />
-                </methods>
-            </class>
 
+            </class>
         </classes>
+
     </test>
 </suite>
-

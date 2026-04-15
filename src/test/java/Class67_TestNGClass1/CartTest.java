@@ -9,7 +9,7 @@ public class CartTest extends BaseTest{
         System.out.println("6_Test -  verifyUserCanRemoveProduct");
     }
 
-    @Test
+    @Test (groups = "smoke")
     public void verifyUserCanClickONCheckOut() {
         System.out.println("7_Test - verifyUserCanClickONCheckOut");
     }

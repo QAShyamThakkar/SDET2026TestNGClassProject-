@@ -5,8 +5,7 @@ import org.testng.annotations.Test;
 public class ProdcutDeatilsPageTest extends BaseTest{
 
 
-
-    @Test
+    @Test (groups = "smoke")
     public void verifyUserCanAddProduct() {
         System.out.println("4_Test -  verify User Can Add Product");
     }
