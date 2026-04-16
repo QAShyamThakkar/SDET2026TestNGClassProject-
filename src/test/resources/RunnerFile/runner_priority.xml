@@ -2,10 +2,18 @@
 
 <suite name="Trump" verbose="1">
     <test name="Smoke">
-        <classes>
-            <class name="Class67_TestNGClass1.LoginTest">
 
-            </class>
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+<!-- Priority will not work at the package level, it has to be executed at class level-->
+        <classes>
+            <class name="Class67_TestNGClass1.LoginTest"/>
+            <class name="Class67_TestNGClass1.ProdcutDeatilsPageTest"/>
+            <class name="Class67_TestNGClass1.CartTest"/>
         </classes>
 
     </test>
