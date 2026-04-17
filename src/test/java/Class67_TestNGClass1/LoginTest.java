@@ -1,8 +1,10 @@
 package Class67_TestNGClass1;
 
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.*;
 
 public class LoginTest extends BaseTest{
+
 
 
     @Test (groups = "smoke", priority = 1, dependsOnMethods = "verifyLogInUnsuccessful")
