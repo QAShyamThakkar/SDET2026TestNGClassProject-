@@ -4,7 +4,7 @@
     <test name="Regression1">
         <classes>
 
-            <class name="Class67_TestNGClass1.LoginTest">
+            <class name="Class67to71_TestNGClass1.LoginTest">
                 <methods>
                         <exclude name="verifyLogInSuccessful" />
                 </methods>

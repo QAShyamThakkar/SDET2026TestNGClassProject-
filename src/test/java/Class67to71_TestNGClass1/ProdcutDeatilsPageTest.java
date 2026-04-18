@@ -1,4 +1,4 @@
-package Class67_TestNGClass1;
+package Class67to71_TestNGClass1;
 
 import org.testng.annotations.Test;
 

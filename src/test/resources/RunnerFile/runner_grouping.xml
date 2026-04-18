@@ -10,7 +10,7 @@
         </groups>
 
         <packages>
-            <package name="Class67_TestNGClass1"/>
+            <package name="Class67to71_TestNGClass1"/>
         </packages>
     </test>
 </suite>

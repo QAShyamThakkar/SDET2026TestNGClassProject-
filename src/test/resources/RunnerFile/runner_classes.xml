@@ -3,19 +3,19 @@
 <suite name="Trump" verbose="1">
     <test name="Regression1">
         <classes>
-            <class name="Class67_TestNGClass1.LoginTest">
+            <class name="Class67to71_TestNGClass1.LoginTest">
                 <methods>
                         <include name="verifyLogInSuccessful" />
                 </methods>
             </class>
 
-                <class name="Class67_TestNGClass1.ProdcutDeatilsPageTest">
+                <class name="Class67to71_TestNGClass1.ProdcutDeatilsPageTest">
                     <methods>
                         <include name="verifyUserCanAddProduct" />
                     </methods>
                 </class>
 
-            <class name="Class67_TestNGClass1.CartTest">
+            <class name="Class67to71_TestNGClass1.CartTest">
                 <methods>
                     <include name="verifyUserCanClickONCheckOut" />
                 </methods>
